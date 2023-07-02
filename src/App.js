@@ -7,7 +7,7 @@ import {
 	ConfirmationPage,
 	DonatorPage,
 	HomePage,
-	ScanPage,
+	StockPage,
 } from './pages/index';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
 			<Route path='/booking' element={<BookingPage />} />
 			<Route path='/confirmation' element={<ConfirmationPage />} />
 			<Route path='/donator' element={<DonatorPage />} />
-			<Route path='/scan' element={<ScanPage />} />
+			<Route path='/stock' element={<StockPage />} />
 			{/* <Route path='*' element={<PageNotFound />} /> */}
 		</Routes>
 	);
